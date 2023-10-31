@@ -32,6 +32,21 @@ class ListPlaces extends StatelessWidget {
                 width: 240,
               ),
               Positioned(
+                  right: 10,
+                  top: 10,
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(100),
+                    ),
+                    padding: const EdgeInsets.all(6),
+                    child: const Icon(
+                      Icons.favorite_rounded,
+                      color: Colors.red,
+                      size: 20,
+                    ),
+                  )),
+              Positioned(
                 bottom: 10,
                 left: 10,
                 child: Row(
